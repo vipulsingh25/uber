@@ -1,0 +1,473 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+}
+
+.top{
+  background-image: url("C:\Users\Vipul Singh\Desktop\GDSC\uber\src\images\topback.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.items{
+  color: black;
+  font-size: x-large;
+  font-weight: normal;
+}
+
+.navbar{
+  display: flex;
+  padding: 20px;
+  width: 95%;
+  margin: auto;
+}
+
+.brandname , .signbtn{
+  width: 50%;
+}
+
+.brandlogo{
+  margin-left: 20px;
+}
+
+.signbtn{
+  text-align: right;
+}
+
+.signinbtn{
+  background-color: rgb(232, 232, 232);
+  width: 80px;
+  height: 48px;
+  border-radius: 500px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.signinbtn:hover{
+  background-color: rgb(213, 209, 209);
+}
+
+.middle1{
+  width: 95%;
+  margin: auto;
+}
+
+.order{
+  margin-top: 150px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.orderoption{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.devnpick{
+  background-color: white;
+  width: 170px;
+  height: 56px;
+  display: flex;
+}
+
+.dev{
+  margin-left: 5px;
+}
+
+.deliverybag{
+  width: 30px;
+  height: 28px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.dnpdrop{
+  width: 120px;
+}
+
+.Dtext{
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.locationic{
+  width: 30px;
+  height: 28px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.orderlocation{
+  display: flex;
+  background-color: white;
+  width: 500px;
+  height: 56px;
+  margin-left: 10px;
+}
+
+.enterlocation{
+  width: 440px;
+  height: 53px;
+  border: none;
+  font-size: 18px;
+}
+
+.enterlocation:hover{
+  border-bottom: solid 3px black;
+}
+
+.enterloc{
+  margin-left: 10px;
+}
+
+.forder{
+  background-color: black;
+  color: white;
+  width: 120px;
+  height: 56px;
+  margin-left: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.forder:hover{
+  background-color: rgb(48, 48, 48);
+}
+
+.signinrd{
+  color: black;
+  margin: 0px 2px 0px 0px;
+}
+
+.middle2{
+  width: 95%;
+  margin: auto;
+  margin-top: 75px;
+  display: flex;
+}
+
+.card1{
+  width: 32%;
+  height: 320px;
+  margin: 0% 1% 0% 0%;
+}
+
+.card2{
+  width: 32%;
+  height: 320px;
+  margin: 0% 1% 0% 1%;
+}
+
+.card3{
+  width: 32%;
+  height: 320px;
+  margin: 0% 0% 0% 1%;
+}
+
+.card1:hover , .card2:hover , .card3:hover {
+  cursor: pointer;
+}
+.cardlink{
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.carddetails{
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.cityname{
+  width: 95%;
+  margin:auto;
+  margin-top: 15px;
+  display: flex;
+}
+
+.cityname2{
+  display: flex;
+}
+
+.subcityname{
+  margin-left: 5px;
+  width: 25%;
+}
+
+.subcityname2{
+  margin-left: 180px;
+}
+
+.citylink{
+  color: inherit;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: normal;
+  display: block;
+}
+
+.citylink2{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+}
+
+.citylink2:hover , .services2:hover , .notsell:hover , .TndS:hover{
+  text-decoration: underline;
+}
+
+.TndS{
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.CwithU{
+  width: 95%;
+  margin: auto;
+}
+
+.country{
+  margin-top: 55px;
+  font-size: 36px;
+}
+
+.footer{
+  background-color: black;
+  margin-top: 50px;
+}
+
+.insidefooter{
+  width: 95%;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.storelink{
+  display: flex;
+  margin-top: 170px;
+
+}
+
+.playstore{
+  width: 134.28px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+.upperfooter{
+  display: flex;
+}
+
+.logondstore{
+  width: 39%;
+}
+
+hr{
+  background-color: white;
+  margin-top: 40px;
+}
+
+.lowerfooter{
+  display: flex;
+  color: white;
+}
+.socialmedia{
+  display:flex;
+  width: 30%;
+  margin: 30px 0px 100px 0px;
+}
+
+.services1{
+  display: flex;
+  justify-content: end;
+}
+
+.services2{
+  margin-left: 30px;
+}
+
+.services{
+  width: 52%;
+  text-align: right;
+  margin: 30px 0px 100px 0px;
+  font-size: 14px;
+}
+
+.ubertech{
+  width: 18%;
+  text-align: right;
+  margin: 30px 0px 100px 0px;
+  font-size: 14px;
+}
+
+.media{
+  width: 25px;
+  height: 25px;
+}
+
+.media1{
+  width: 18px;
+  height: 13px;
+  margin-left: 15px;
+}
+
+.media2{
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.translate{
+  width: 20px;
+  height: 20px;
+}
+
+.mainsidebar{
+  background-color:rgba(0, 0, 0, 0.584);
+  width: 100%;
+  height: 100vh;
+  position:fixed;
+  top: 0;
+  left: -100%;
+  transition: 0.2s;
+}
+
+
+.mainsidebar.active{
+  left:0;
+}
+.sidebar{
+  background-color: white;
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+}
+
+
+.sidebar-signbtn1{
+  background-color: black;
+  width: 85%;
+  margin: auto;
+  margin-top: 30px;
+  height: 60px;
+  text-align: center;
+}
+
+.sidebar-signbtn1:hover{
+  background-color: rgb(57, 57, 57);
+}
+
+.sidebar-signbtn2{
+  background:none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 20px 16px;
+}
+
+.sidebar-img1{
+  height: 56px;
+  width: 56px;
+}
+.sidebar-items1{
+  width: 85%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.sidebar-items{
+  display: block;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar-items2{
+  display: flex;
+  width: 85%;
+  margin: auto;
+  height: 28px;
+  margin-top: 330px;
+}
+.sidebar-items3{
+  display: flex;
+  width: 85%;
+  margin: auto;
+  height: 28px;
+  margin-top: 40px;
+}
+.sidebar-info{
+  margin-top: 9px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.AndA{
+  display: flex;
+  background: #EEEEEE;
+  height: 20px;
+  width: 70px;
+  padding: 12px;
+  border-radius: 500px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.AA{
+  margin-left: 10px;
+}
+
+.AndA:hover{
+  background: #d9d9d9;
+}
+
+.mainmap{
+  width: 95%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.maplinks{
+  display: flex;
+}
+
+.map-head , .link-head{
+  width: 50%;
+}
+
+.map-head{
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.link-head{
+  text-align: right;
+  text-decoration: underline;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.mainview{
+  width: 100%;
+  height: 330px;
+  margin-top: 20px;
+}
